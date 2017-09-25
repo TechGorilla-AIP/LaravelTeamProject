@@ -10,7 +10,7 @@ use App\Type;
 class RestController extends Controller
 {
 	  
-	//十条 最新的文章列表
+	// New posts from users. Limited to 10.
     public function articleList()
     {
     	$articles=DB::table('articles')->orderBy('id', 'desc')->limit(10)->get();

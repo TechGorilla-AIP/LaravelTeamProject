@@ -8,11 +8,11 @@
                 <div class="panel-heading">TechGorilla Admin Dashboard</div>
 
                 <div class="panel-body">
-                    Admin loged in successfully.
+                    Admin logged in successfully.
                     <br/><br/>
-                    Current running on Alpha v0.2 with Laravel 5.2 framework. No frontend UI has been created yet.
+                    Current running on Alpha v0.2 with [Laravel 5.4] framework. No front-end UI has been implemented yet.
                     <br/><br/>
-                    This admin panel is able to manage posts, categories, subscribers(users), and admins. All sensitive data will be stored encrypted.
+                    This admin panel is able to manage posts, categories, subscribers(users), and admins for TechGorilla authorized managers only. All sensitive data will be stored encrypted.
                     <br/><br/>
                     Note: The following functions are unavailable at this moment: <br/>Manage posts<br/>ManageCategories<br/>Manage subscribers<br/>
                 </div>

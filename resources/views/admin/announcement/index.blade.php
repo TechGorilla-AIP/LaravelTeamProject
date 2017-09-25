@@ -8,6 +8,7 @@
         <div class="panel-heading">Announcement Management</div>
 
         <div class="panel-body"> NOTE: Articles posted by admins can only be shown in admin special column.(Gorilla's work column)<br/>
+            <br/> <b>Preview not available now.</b>
             <br/><br/>
 
 		<a href="{{ URL('admin/announcements/create') }}" class="btn btn-lg btn-primary">Add</a>
@@ -64,7 +65,7 @@ function deleteInfo(id)
 		        		alert('OH YEAH!');
 		        		location.href= "{{ URL('admin/announcements/')}}";
 					} else {
-						alert('OH FXXK NO! ERROR!');
+						alert('OH NO! Heres an ERROR!');
 					}
 		     }});
 		}
