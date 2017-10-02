@@ -17,7 +17,7 @@
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address (Unable to find or reset user name)</label>
+                            <label for="email" class="col-md-4 control-label">E-Mail Address </label>
                             </label>
 
                             <div class="col-md-6">
@@ -36,6 +36,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     Send Password Reset Link
                                 </button>
+                                <br/><br/>
+                                <img src="/favicon.ico" height="35" width="35" />
+                                <p><b>Note:</b>This can take up to 30 seconds to send rest request due to our Email service is located overseas and your internet condition.</p>
+                                <p>Password reset function is not working stable. TechGorilla team will be keeping working on this function.</p>
                             </div>
                         </div>
                     </form>

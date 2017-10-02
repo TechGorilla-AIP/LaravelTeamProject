@@ -55,7 +55,7 @@
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password? (Not available now)
+                                    Forgot Your Password? (Now only available to subscribers)
                                 </a>
                             </div>
                         </div>
