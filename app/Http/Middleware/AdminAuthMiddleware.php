@@ -12,7 +12,7 @@ class AdminAuthMiddleware
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
-     * @return mixed
+     * @return mixed 1
      */
     public function handle($request, Closure $next,$guard = null)
     {

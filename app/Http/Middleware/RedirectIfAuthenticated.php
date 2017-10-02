@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class RedirectIfAuthenticated
 {
-    /**
+    /**1
      * Handle an incoming request.
      *
      * @param  \Illuminate\Http\Request  $request

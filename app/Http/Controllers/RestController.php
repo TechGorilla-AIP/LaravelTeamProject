@@ -9,8 +9,8 @@ use App\Type;
 
 class RestController extends Controller
 {
-	  
-	// New posts from users. Limited to 10.
+    //RESTful controller
+	//Ten latest posts from users.
     public function articleList()
     {
     	$articles=DB::table('articles')->orderBy('id', 'desc')->limit(10)->get();
@@ -25,7 +25,7 @@ class RestController extends Controller
     	echo json_encode($list);
     }
     
-    //十个最新的文章分类
+    //Ten latest cate
     public function typeList()
     {
     	$types=DB::table('types')->orderBy('id', 'desc')->limit(10)->get();
@@ -38,7 +38,7 @@ class RestController extends Controller
     	echo json_encode($list);
     }
     
-    //十条  最新的管理员信息
+    //Ten latest announcements
     public function announcementList()
     {
     	$announcemens=DB::table('announcements')->orderBy('id', 'desc')->limit(10)->get();
@@ -52,3 +52,4 @@ class RestController extends Controller
     	echo json_encode($list);
     }
 }
+// last updated by fulun 1/10 2017
