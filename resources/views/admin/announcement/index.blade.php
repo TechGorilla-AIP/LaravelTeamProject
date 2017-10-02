@@ -8,15 +8,15 @@
         <div class="panel-heading">Announcement Management</div>
 
         <div class="panel-body"> NOTE: Articles posted by admins can only be shown in admin special column.(Gorilla's work column)<br/>
-            <br/> <b>Preview not available now.</b>
+            <br/> <b>Preview function is not running stable.</b>
             <br/><br/>
 
-		<a href="{{ URL('admin/announcements/create') }}" class="btn btn-lg btn-primary">Add</a>
+		<a href="{{ URL('admin/announcements/create') }}" class="btn btn-lg btn-primary">Post Announcement</a><br/><br/>
         <table class="table table-striped">
           <tr class="row">
             <th class="col-lg-4">Content</th>
             <th class="col-lg-2">Title</th>
-            <th class="col-lg-4">View</th>
+            <th class="col-lg-4">Preview</th>
             <th class="col-lg-1">Edit</th>
             <th class="col-lg-1">Remove</th>
           </tr>
@@ -29,7 +29,7 @@
                     {{ $announcement->title }}
               </td>
               <td class="col-lg-4">
-                <a href="{{ URL('announcements/show/'.$announcement->id) }}" target="_blank">
+                <a href="{{ URL('announcement/show/'.$announcement->id) }}" target="_blank">
                   {{ App\Announcement::find($announcement->id)->title }}
                 </a>
               </td>
