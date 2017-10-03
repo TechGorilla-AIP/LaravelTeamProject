@@ -87,7 +87,7 @@ class AdminsController extends Controller
 	  	if ($admin->save()) {
             return redirect('admin/admins');
         } else {
-            return back()->withInput()->withErrors('保存失败');
+            return back()->withInput()->withErrors('Failed to save');
         }
 	}
 	

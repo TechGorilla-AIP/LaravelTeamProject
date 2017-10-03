@@ -45,7 +45,7 @@ class ArticlesController extends Controller
     	if ($article->save()) {
     		return redirect('admin/articles');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Failed to save');
     	}
     }
     
@@ -77,7 +77,7 @@ class ArticlesController extends Controller
     	if ($article->save()) {
     		return redirect('admin/articles');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Failed to save');
     	}
     }
     

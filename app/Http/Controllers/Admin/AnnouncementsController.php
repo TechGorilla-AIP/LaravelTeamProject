@@ -43,7 +43,7 @@ class AnnouncementsController extends Controller
     	if ($announcement->save()) {
     		return redirect('admin/announcements');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Failed to save');
     	}
     }
     
