@@ -40,11 +40,6 @@
                 right: 10px;
                 top: 18px;
             }
-            .bottom-right {
-                  position: absolute;
-                  right: 10px;
-                  bottom: 30px;
-              }
 
             .content {
                 text-align: center;
@@ -71,40 +66,26 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-
-                    @endif
-                </div>
-                <div class="bottom-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/admin/login') }}">Admin Login</a>
-
-
-                    @endif
-
-                </div>
-            @endif
-
+          
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel TechGorilla Project
+                   About TechGorilla
                 </div>
+                <div class="fh5co-post-text">
+                    <h4>TechGorilla is a blog system, users can post anything on TechGorilla after login/register.</h4>
+                    <h3>TechGorilla Developers</h3>
 
+                    <p>Fulun He 12650356</p>
+                    <p>Qiaozhi Lu N/A</p>
+                    <p>Xiaohan Wang N/A</p>
+                </div><br/><br/>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Laravel Documentation</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="{{ url('index/about') }}">About TechGorilla</a>
-                    <a href="https://github.com/TechGorilla-AIP/LaravelTeamProject">GitHub</a>
+
+                    <a href="{{ url('')}}">Home</a>
                 </div>
+                
             </div>
+
         </div>
     </body>
 </html>

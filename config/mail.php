@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.163.com'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'homework0820@163.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'techgorillaservice@gmail.com'),
         'name' => env('MAIL_FROM_NAME', 'TechGorilla Account Serivce'),
     ],
 
