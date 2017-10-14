@@ -1,3 +1,8 @@
+<!--
+HTML
+https://codepen.io/pfow/pen/dNaKVM.html
+Final reviewed by Fulun He 14/10/2017
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,8 +98,8 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="site-heading">
-                        <h1>Share your PC</h1>
-                        <span class="subheading">Get your free remaster service</span>
+                        <h1>TechGorilla Master Builds</h1>
+                        <span class="subheading">Reply to get your free remaster service</span>
                     </div>
                 </div>
             </div>
@@ -164,7 +169,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; TechGorilla - Team GorillaFredy 2017. </p>
+                    <p class="copyright text-muted">Copyright &copy; TechGorilla - Team Gorilla AIP UTS 2017. </p>
                 </div>
             </div>
         </div>

@@ -28,7 +28,7 @@
                     </button>
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Administrator Panel
+                       TechGorilla.red offical website
                     </a>
                 </div>
 

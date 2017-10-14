@@ -1,3 +1,8 @@
+<!--
+HTML
+https://codepen.io/pfow/pen/dNaKVM.html
+Final reviewed by Fulun He 14/10/2017
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TechGorilla Community</title>
+    <title>Community</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -55,9 +60,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="{{ url('index/share') }}">Share</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="{{ url('index/buyPrice') }}">Buy & Price</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="{{ url('index/about') }}">About</a>

@@ -72,17 +72,19 @@
                    About TechGorilla
                 </div>
                 <div class="fh5co-post-text">
-                    <h4>TechGorilla is a blog system, users can post anything on TechGorilla after login/register.</h4>
+                    <div class="panel-heading"><img src="/favicon.ico" height="45" width="45" /><h4>TechGorilla is a blog system, users can post anything on TechGorilla after login/register.<br/>Please contact at techgorillaservice@gmail.com if you have any question about our service.</h4>
                     <h3>TechGorilla Developers</h3>
 
                     <p>Fulun He 12650356</p>
-                    <p>Qiaozhi Lu N/A</p>
-                    <p>Xiaohan Wang N/A</p>
+                    <p>Qiaozhi Lu 12730507</p>
+                    <p>Xiaohan Wang 12730192</p>
                 </div><br/><br/>
                 <div class="links">
 
                     <a href="{{ url('')}}">Home</a>
                 </div>
+                    <br/>Where to find us?<br/>
+                    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJse6XQySuEmsRO7j5kgWBIWA&destination=place_id:ChIJQ0g5teWkEmsRtthvc4PGLiI&key=AIzaSyArelRfP_JZavbFFEFX0zL2Rhh_-uIjv1s" allowfullscreen></iframe>
                 
             </div>
 

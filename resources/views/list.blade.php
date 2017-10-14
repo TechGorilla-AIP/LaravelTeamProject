@@ -1,3 +1,8 @@
+<!--
+HTML
+https://codepen.io/pfow/pen/dNaKVM.html
+Final reviewed by Fulun He 14/10/2017
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,7 +99,7 @@
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <div class="site-heading">
                         <h1>Share your PC</h1>
-                        <span class="subheading">Get your free remaster service here</span>
+                        <span class="subheading">Show off your PC and win</span>
                     </div>
                 </div>
             </div>

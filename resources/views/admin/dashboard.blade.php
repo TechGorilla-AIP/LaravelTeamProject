@@ -8,13 +8,15 @@
                 <div class="panel-heading"><img src="/favicon.ico" height="35" width="35" />TechGorilla Admin Dashboard</div>
 
                 <div class="panel-body">
-                    Admin logged in successfully.
+                    Administrator logged in successfully.
                     <br/><br/>
-                    Current running on Alpha v0.2 with [Laravel 5.4] framework. No front-end UI has been implemented yet.
+                    Current running on version:Public 1.0 with [Laravel 5.4] framework and [Kindeditor]. Front end is developed with Bootstrap.
                     <br/><br/>
-                    This admin panel is able to manage posts, categories, subscribers(users), and admins for TechGorilla authorized managers only. All sensitive data will be stored encrypted.
+                    This admin panel is able to manage posts, categories, subscribers(users) and announcements.
                     <br/><br/>
                     TechGorilla Team - <b>Fulun He, Qiaozhi Lu & Xiaohan Wang.</b>
+                    <p>For TechGorilla authorized administrators only. All personal data will be stored encrypted in our database.</p>
+                    <br/>
                 </div>
             </div>
         </div>

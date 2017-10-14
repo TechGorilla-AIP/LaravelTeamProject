@@ -72,10 +72,8 @@
             Page NOT FOUND
         </div>
         <div class="fh5co-post-text">
-            <h4>Why'd you come here? </h4>
+            <h4>Why'd you come here? Page not found: And yeah, it'the code <b>404.</b></h4>
 
-
-            <p>Page not found: And yeah, it'the code 404.</p>
 
         </div><br/><br/>
         <div class="links">

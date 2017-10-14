@@ -2,7 +2,7 @@
 HTML
 https://codepen.io/pfow/pen/dNaKVM.html
 Final reviewed by Fulun He 14/10/2017
->
+-->
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -89,7 +89,9 @@ Final reviewed by Fulun He 14/10/2017
                                     </li>
 		                    @else
 		    					<li><a href="{{ url('/login') }}">Login</a></li>
+
 								<li><a href="{{ url('/register') }}" class="call-to-action">Get Started</a></li>
+								<li><a href="{{ url('/admin/login') }}">Admin Login</a></li>
 		                    @endif
 	            		@endif
 						 
@@ -113,7 +115,7 @@ Final reviewed by Fulun He 14/10/2017
 							<div class="fh5co-cover-intro">
 								<h1 class="cover-text-lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s"> Create your own computer</h1>
 								<h2 class="cover-text-sublead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">Every computer is animated. TechGorilla provides a range of DIY services for your desktop. </h2>
-								<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="#" class="btn btn-primary btn-outline btn-lg">See Our Work</a></p>
+								<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="{{ url('index/work') }}" class="btn btn-primary btn-outline btn-lg">See Our Work</a></p>
 							</div>
 						</div>
 					</div>
