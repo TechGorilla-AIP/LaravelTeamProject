@@ -42,7 +42,7 @@ class TypesController extends Controller
     	if ($type->save()) {
     		return redirect('admin/types');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Save failed');
     	}
     }
     
@@ -72,7 +72,7 @@ class TypesController extends Controller
     	if ($Type->save()) {
     		return redirect('admin/types');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Save failed');
     	}
     }
     

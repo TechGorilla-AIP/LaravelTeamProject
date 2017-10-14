@@ -1,5 +1,5 @@
 @extends('admin.app')
-
+<!-- https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission -->
 @section('content')
 <div class="container">  
   <div class="row">
