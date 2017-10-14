@@ -1,21 +1,30 @@
-<p>LARAVEL V5.4 Developer note - Project TechGorilla Alpha v0.2</p>
+
+<h2>Advanced Internet Programming Assignment 3<br/>      
+Handbook V1.1
+</h2>
+
+<p>This application is designed based on Laravel 5.4 and bootstrap, for Advanced Internet Programming subject - assignment 3 use.
 <p>TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.</p></font>
 
-
-#TechGorilla developer notes#
-->Installing guidance for local enviornment 
-
+Please read this document carefully before running the application:
+<h4>->Local Installing guide:</h4>
 Running this project requires MySQL server and Composer installed.
 1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
-2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours. <b>example.env.example</b> -> <b>.env</b>
+2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config <b>SAME</b> with yours. <b>example.env</b> -> <b>.env</b>. 
 3. Generate your communication key on terminal: <b>php artisan key:generate</b>
 4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
-5. Test database migration: <b>php artisan db:seed</b>
-6. Use admin@admin.com for email address and <b>111111</b> for password for admin login.
+5. Database migration: <b>php artisan db:seed</b>
+6. You are all set now. Use <b>php artisan serve</b> to start running the application.
+6. Use: <b>admin@admin.com</b> for email address (username) and <b>111111</b> for password for admin login.
 
-#TechGorilla developer notes#
-
-
+ Make sure you are running MySQL and port 8000 available.
+ 
+ <h3>What is TechGorilla?</h3>
+ Users can post messages after login. You can post anything as long as there is the option. Remember to logout for your account safety. 
+ All personal information are stored encrypted 
+ #End of User handbook#
+-----------------------------------------------------------------------------------------------------------------------------------
+#TechGorilla developer notes
 -----------------------------------------------------------------------------------------------------------------------------------
 ->Coding convention - v1.0 
 
