@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<!--https://laracasts.com/discuss/channels/laravel/laravel-custom-errors-->
 @section('content')
 <div class="container">
     <div class="row">

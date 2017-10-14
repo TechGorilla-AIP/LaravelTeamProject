@@ -48,7 +48,7 @@ class UsersController extends Controller
     	if ($user->save()) {
     		return redirect('admin/users');
     	} else {
-    		return back()->withInput()->withErrors('保存失败');
+    		return back()->withInput()->withErrors('Save failed');
     	}
     }
     
@@ -87,7 +87,7 @@ class UsersController extends Controller
 	  	if ($user->save()) {
             return redirect('admin/users');
         } else {
-            return back()->withInput()->withErrors('保存失败');
+            return back()->withInput()->withErrors('Save failed');
         }
 	}
 	
