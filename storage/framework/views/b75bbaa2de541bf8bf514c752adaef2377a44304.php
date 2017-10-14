@@ -37,7 +37,7 @@
 <?php $__env->stopSection(); ?>
 
 <script charset="utf-8" src="/kindeditor/kindeditor-all-min.js"></script>
-<script charset="utf-8" src="/kindeditor/lang/zh-CN.js"></script>
+<script charset="utf-8" src="/kindeditor/lang/en.js"></script>
 <script>
 var editor;
 KindEditor.ready(function(K) {

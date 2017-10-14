@@ -1,7 +1,5 @@
 <?php
- /**
-     * https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission
-     */
+
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
@@ -55,3 +53,6 @@ class LoginController extends Controller
     
     
 }
+/**
+ * https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission
+ */
