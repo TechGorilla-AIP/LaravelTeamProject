@@ -26,7 +26,7 @@ Running this project requires MySQL server and Composer installed.
 -----------------------------------------------------------------------------------------------------------------------------------
 #TechGorilla developer notes
 -----------------------------------------------------------------------------------------------------------------------------------
-->Coding convention - v1.0 
+<br/>->Coding convention - v1.0 
 
 -Variables are in camelCase such as getName, getEmailAdd etc.
 
