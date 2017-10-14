@@ -9,13 +9,13 @@ Handbook V1.1
 Please read this document carefully before running the application:
 <h4>->Local Installing guide:</h4>
 Running this project requires MySQL server and Composer installed.
-1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
-2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config <b>SAME</b> with yours. <b>example.env</b> -> <b>.env</b>. 
-3. Generate your communication key on terminal: <b>php artisan key:generate</b>
-4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
-5. Database migration: <b>php artisan db:seed</b>
-6. You are all set now. Use <b>php artisan serve</b> to start running the application.
-6. Use: <b>admin@admin.com</b> for email address (username) and <b>111111</b> for password for admin login.
+<br/>1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
+<br/>2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config <b>SAME</b> with yours. <b>example.env</b> -> <b>.env</b>. 
+<br/>3. Generate your communication key on terminal: <b>php artisan key:generate</b>
+<br/>4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
+<br/>5. Database migration: <b>php artisan db:seed</b>
+<br/>6. You are all set now. Use <b>php artisan serve</b> to start running the application.
+<br/>7. Use: <b>admin@admin.com</b> for email address (username) and <b>111111</b> for password for admin login.
 
  Make sure you are running MySQL and port 8000 available.
  
